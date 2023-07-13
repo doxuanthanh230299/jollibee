@@ -1,0 +1,117 @@
+.wrapper {
+    width: 100%;
+    background-color: var(--red-primary);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.section-1 {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.footer-logo {
+    margin-right: 50px;
+}
+
+.info-address p {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.section-2 {
+    padding: 0 16px;
+    flex-basis: 33%;
+}
+
+.list-page li {
+    margin-bottom: 10px;
+}
+
+.delivery-logo {
+    margin-bottom: 15px;
+}
+
+.section-3 {
+    flex-basis: 25%;
+}
+
+.title {
+    font-size: 2.2rem;
+    font-family: 'MergeBlack', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.email-btn {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.coppyright {
+    text-align: center;
+    padding: 16px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--white);
+    background-color: #d11633;
+}
+
+@media (max-width: 1224px) {
+    .section-1 {
+        display: flex;
+        flex-basis: 60%;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo {
+        max-width: 24%;
+        margin-bottom: 10px;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .section-1 {
+        display: flex;
+        width: 100%;
+    }
+
+    .info-address {
+        display: none;
+    }
+
+    .footer-logo {
+        margin: 20px auto;
+    }
+
+    .section-2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section-3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo-bocongthuong {
+        text-align: -webkit-center;
+        text-align: -moz-center;
+        img {
+            width: auto;
+        }
+    }
+}

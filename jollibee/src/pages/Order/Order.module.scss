@@ -1,0 +1,7 @@
+.delete,
+.edit {
+    cursor: pointer;
+    &:hover {
+        background-color: var(--red-primary);
+    }
+}

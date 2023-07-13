@@ -1,0 +1,37 @@
+.wrapper {
+    left: 75%;
+    text-align: center;
+    font-size: 2.2rem;
+    background-color: var(--yel-primary);
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    max-width: 280px;
+    z-index: 999;
+    cursor: pointer;
+
+    // position: absolute;
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    right: 60px;
+    margin: 0;
+    z-index: 100;
+    @media (max-width: 1023px) {
+        position: fixed;
+        bottom: 0;
+        left: 70%;
+        right: 0px;
+    }
+}
+
+.card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'MergeBlack';
+    font-size: 2.6rem;
+}
+
+.total {
+    margin-left: 10px;
+}

@@ -1,0 +1,94 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    background: url('../../../../assets/img/Home/bg-wood.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin-left: 4px;
+
+    &:hover .bottom-wrapper {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        bottom: 0;
+    }
+}
+
+.top-wrapper {
+    width: 100%;
+}
+
+.top-wrapper img {
+    margin: 0 auto;
+}
+
+.bottom-wrapper {
+    background-color: #e31837;
+    transform: translateY(150px);
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    height: 140px;
+    position: absolute;
+    bottom: 90px;
+    // left: 10%;
+    // right: 10%;
+    text-align: center;
+}
+
+.title-item {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: var(--yel-primary);
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+}
+
+@media (max-width: 1224px) {
+    .wrapper {
+        display: flex;
+        width: 100%;
+        background: url('../../../../assets/img/Home/bg-wood.jpg');
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        margin-left: 4px;
+
+        &:hover .bottom-wrapper {
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            transform: translateY(0);
+            bottom: 0;
+        }
+    }
+
+    .top-wrapper {
+    }
+
+    .bottom-wrapper {
+        left: 20%;
+        right: 20%;
+    }
+
+    .title-item {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        background-color: var(--yel-primary);
+        text-transform: uppercase;
+        font-weight: bold;
+        height: 40px;
+        width: 140px;
+    }
+}

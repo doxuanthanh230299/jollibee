@@ -1,0 +1,26 @@
+const routes = {
+    home: '/',
+    info: '/info',
+    menu: '/menu/',
+    promotion: '/promotion',
+    service: '/service',
+    news: '/news',
+    stores: '/stores',
+    contact: '/contact',
+    register: '/register',
+    payment: '/thanh-toan',
+    management: '/quan-tri',
+    dashboard: '/dashboard',
+    order: '/order',
+    orderDetail: '/order/:id',
+    products: '/products',
+    editProduct: '/editProduct/:id',
+    addProduct: '/addProduct',
+    loginAdmin: '/loginAdmin',
+    blog: '/blog/:id',
+    detailOrder: '/detailOrder/:id',
+    categories: '/categories',
+    // editUser: '/editUser/:id',
+};
+
+export default routes;

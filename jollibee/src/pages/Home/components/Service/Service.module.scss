@@ -1,0 +1,37 @@
+.wrapper {
+    display: block;
+    background: url('../../../../assets/img/Home/jollibee-kid-party-bg.png');
+    padding: 70px 20px;
+}
+
+.wrapper-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'MergeBlack', sans-serif;
+    color: #e31837;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 21px;
+    text-transform: uppercase;
+    font-family: 'MergeBlack', sans-serif;
+    color: #000;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 6%;
+    justify-content: space-between;
+}
+
+@media (max-width: 1224px) {
+    .content {
+        display: block;
+    }
+}

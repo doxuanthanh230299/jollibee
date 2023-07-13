@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+
+    &:nth-child(2n) {
+        background-color: #d5d5d5;
+    }
+}
+
+.box-left {
+    width: 350px;
+    padding-right: 80px;
+}
+
+.box-right {
+    width: 50%;
+}
+
+.title {
+    font-family: 'MergeBlack', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--red-primary);
+    padding-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 25px;
+    line-height: 26px;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+    .box-right {
+        text-align: center;
+        width: 70%;
+    }
+}

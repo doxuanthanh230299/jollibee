@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    &.active {
+        .title {
+            color: var(--red-primary);
+        }
+    }
+    padding-left: 10px;
+}
+
+.logo {
+    height: 1.9rem;
+    width: 1.9rem;
+    margin-right: 5px;
+}
+
+.title {
+    font-family: 'MergeBlack', sans-serif;
+    font-size: 1.4rem;
+}

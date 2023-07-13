@@ -1,0 +1,115 @@
+.wrapper {
+    z-index: 99;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 0px;
+    left: 60%;
+    width: 500px;
+    height: 50vh;
+    overflow-y: scroll;
+    background-color: var(--yel-primary);
+    padding: 0 15px 20px;
+    max-width: 530px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 9999;
+}
+
+.minimize {
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+    cursor: pointer;
+}
+
+.product-list {
+    padding: 20px;
+}
+
+.product-item {
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #000;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.name {
+    width: 100%;
+    font-size: 1.6rem;
+    font-family: 'MergeBlack';
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+
+.price {
+    font-size: 1.4rem;
+    color: #ce181f;
+    float: right;
+    font-family: 'MergeBlack', sans-serif;
+}
+.quantity {
+    width: 100%;
+}
+
+.product-quantity {
+    display: inline-block;
+    vertical-align: top;
+    height: 25px;
+    width: 25px;
+    user-select: none;
+    background: white;
+    line-height: 24px;
+    text-align: center;
+}
+
+.change-quantity {
+    display: inline-block;
+    vertical-align: top;
+    height: 25px;
+    width: 25px;
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.delete-btn {
+    cursor: pointer;
+    background: #c6001d;
+    border-radius: 50%;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1rem;
+
+    button {
+        background-color: #c6001d;
+    }
+}
+
+.total {
+    font-family: 'MergeBlack';
+    font-size: 2rem;
+    padding: 12px 8px;
+    color: red;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.pay-btn {
+    font-family: 'MergeBlack', sans-serif;
+    font-size: 2rem;
+    border: none;
+    color: #fff;
+    background-color: #c6001d;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}

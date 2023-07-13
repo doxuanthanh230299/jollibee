@@ -1,0 +1,133 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side-bar-top {
+    width: 100%;
+    display: flex;
+}
+
+.header {
+    width: 50%;
+    background-color: #ffde94;
+    height: 140px;
+    align-items: center;
+    font-family: 'MergeBlack', sans-serif;
+    font-size: 2.4rem;
+    color: var(--red-primary);
+}
+
+.loc-details {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--yel-primary);
+    text-align: center;
+}
+
+.title {
+    font-family: 'MergeBlack', sans-serif;
+    text-transform: uppercase;
+    color: #e31837;
+    line-height: 1.2;
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+}
+
+.store-img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+
+.list {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(51, 51, 51, 0.5);
+    border: 5px solid rgba(204, 204, 203, 0.5);
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 80%;
+    width: 60%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: 636px;
+    cursor: pointer;
+}
+
+.list-details {
+    color: var(--white);
+    margin-top: 30px;
+    padding: 10px 20px 10px 30px;
+}
+
+.loc-name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'MergeBlack', sans-serif;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.list-content {
+}
+
+.loc-addr,
+.loc-phone,
+.loc-hours {
+    padding-bottom: 6px;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 4px 6px;
+    border-radius: 100%;
+    font-size: 1rem;
+    background-color: var(--yel-primary);
+    color: var(--black);
+}
+
+.side-bar-bottom {
+    display: flex;
+    width: 100%;
+}
+
+.store-location {
+    position: relative;
+    width: 50%;
+    height: max-content;
+}
+
+.map {
+    width: 50%;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+    }
+    .loc-details {
+        display: none;
+    }
+
+    .side-bar-bottom {
+        display: block;
+    }
+    .store-location {
+        width: 100%;
+    }
+    .map {
+        width: 100%;
+        height: 100vh;
+    }
+    
+}

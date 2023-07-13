@@ -1,0 +1,153 @@
+.wrapper {
+    background-color: #ffde94;
+}
+
+.red {
+    color: #ce181f;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.col-6 {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-9 {
+    width: 75%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header {
+    min-height: 8.94rem;
+    background-color: #950e08;
+    font-size: 4rem;
+    font-family: 'MergeBlack', sans-serif;
+    color: #fff;
+    text-align: center;
+    line-height: 12rem;
+}
+
+.section {
+    max-width: 910px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.title {
+    font-family: 'MergeBlack', sans-serif;
+    font-size: 2.6rem;
+    padding-top: 52px;
+}
+
+.sub-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.information {
+}
+
+input {
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+    -webkit-box-shadow: 0px 2px 4px 0 rgb(0 0 0 / 40%);
+    box-shadow: 0px 2px 4px 0 rgb(0 0 0 / 40%);
+    padding: 0 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    min-height: 100px;
+    line-height: 40px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
+    padding: 0 10px;
+}
+
+.cart-header {
+    display: flex;
+}
+
+.cart-item {
+    display: flex;
+    padding: 12px 0;
+}
+
+.product-name {
+    font-size: 2rem;
+    display: flex;
+}
+
+.delete-product {
+    color: #c6001d;
+    font-size: 2.8rem;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.product-quantity {
+    text-align: center;
+    display: inline-block;
+}
+
+.show-order-number {
+    display: inline-block;
+    background: white;
+    vertical-align: top;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: none;
+    margin: 0 6px;
+}
+
+.change-quantity {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffde94;
+    border: none;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.product-price {
+    font-family: 'MergeBlack', sans-serif;
+    font-size: 2.6rem;
+}
+
+.btn {
+    font-family: 'MergeBlack', sans-serif;
+    font-size: 1.8rem;
+    color: #fff !important;
+    background-color: #c6001d;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.payment {
+    text-align: right;
+    padding: 20px 0 5%;
+}

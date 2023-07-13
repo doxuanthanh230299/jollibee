@@ -1,0 +1,21 @@
+.wrapper {
+    background-color: #ffde94;
+}
+
+.page {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+@media (max-width: 1024px) {
+    .page {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page {
+        flex-wrap: wrap;
+    }
+}
